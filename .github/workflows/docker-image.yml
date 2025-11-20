@@ -10,6 +10,7 @@ on:
       - "README.md"
       - "README.en.md"
       - "docs/**"
+  workflow_dispatch:
 
 jobs:
   build-and-push:
